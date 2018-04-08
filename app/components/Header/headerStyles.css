@@ -1,0 +1,42 @@
+
+.Header-mainContainer {
+    display: flex;
+    background-color: black;
+    height: 100%;
+}
+
+.Header-leftContainer {
+    flex: 1;
+    min-width: 20px;
+}
+
+.Header-midContainer {
+    flex: 9;
+    min-width: 120px;   
+}
+
+.Header-rightContainer {
+    flex: 3;
+    display: flex;
+    background-color: black;
+    flex: 3; 
+    min-width: 100px;       
+}
+.search{
+    background: url("../../images/search.png") no-repeat center;
+    flex:1;
+    height:100%;
+}
+
+.profile{
+    background: url("../../images/profile.png") no-repeat center;
+    flex:1;
+    height:100%;
+   
+} 
+
+.like{
+    background: url("../../images/like2.png") no-repeat center;
+    flex:1;
+    height:100%;
+}

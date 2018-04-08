@@ -1,0 +1,18 @@
+
+.Hamborger-container {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.Hamborger-line {
+    background-color: white;
+    height: 15%;
+    width: 50%;
+}
+
+.Hamborger-space {
+    height: 15%;
+    width: 50%;    
+}

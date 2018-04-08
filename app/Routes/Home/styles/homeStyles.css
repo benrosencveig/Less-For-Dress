@@ -1,0 +1,29 @@
+
+.HomeComponent-mainContainer {
+    height: 100%;
+}
+
+.HomeComponent-headerContainer {
+    height: 10%;
+}
+
+.HomeComponent-footerContainer{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    height:10%;
+}
+
+.ItemComponent{
+    height:70%;
+}
+.group.Component{
+    height:70%;
+    width: 70%;
+    background-color:red;
+}
+
+.Group-mainContiner{
+    background-color: blue;
+}

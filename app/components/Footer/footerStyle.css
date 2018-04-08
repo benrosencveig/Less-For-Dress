@@ -1,0 +1,20 @@
+
+.Footer-mainContainer {
+    display: flex;
+    background-color: black;
+    height: 100%;
+}
+
+.Footer-leftContainer {
+    flex: 1;
+    background-color: black;
+}
+
+.Footer-rightContainer {
+    flex: 3;
+    background-color: black;
+}
+
+.Logo {
+    height: 100%;
+}
