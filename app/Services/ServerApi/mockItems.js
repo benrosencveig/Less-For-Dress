@@ -1,4 +1,8 @@
 
+const image1 = 'https://www.w3schools.com/howto/img_fjords.jpg';
+const image2= 'https://cdn.pixabay.com/photo/2016/06/18/17/42/image-1465348_960_720.jpg';
+const image3= 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEZRoYOhIJxL5foNz_NlatDlgYStzZgVIiKuo6vtRtz2wY-8b4Q';
+
 export default [
     {
         id: '1',
@@ -8,7 +12,7 @@ export default [
         size: 'S',
         status: 'new',
         location: '',
-        image: '',
+        image: image1,
     },
     {
         id: '2',
@@ -18,7 +22,7 @@ export default [
         size: 's',
         status: 'old',
         location: '',
-        image: '',
+        image: image2,
     },
     {
         id: '3',
@@ -28,7 +32,7 @@ export default [
         size: 'L',
         status: 'new',
         location: '',
-        image: '',
+        image: image3,
     },
     {
         id: '4',
@@ -38,7 +42,7 @@ export default [
         size: 'XL',
         status: 'very old',
         location: '',
-        image: '',
+        image: image1,
     },
     {
         id: '11',
@@ -48,7 +52,7 @@ export default [
         size: 'S',
         status: 'new',
         location: '',
-        image: '',
+        image: image2,
     },
     {
         id: '12',
@@ -58,7 +62,7 @@ export default [
         size: 's',
         status: 'old',
         location: '',
-        image: '',
+        image: image3,
     },
     {
         id: '13',
@@ -68,7 +72,7 @@ export default [
         size: 'L',
         status: 'new',
         location: '',
-        image: '',
+        image: image1,
     },
     {
         id: '14',
@@ -78,7 +82,7 @@ export default [
         size: 'XL',
         status: 'very old',
         location: '',
-        image: '',
+        image: image2,
     },
     {
         id: '21',
@@ -88,7 +92,7 @@ export default [
         size: 'S',
         status: 'new',
         location: '',
-        image: '',
+        image: image3,
     },
     {
         id: '22',
@@ -98,7 +102,7 @@ export default [
         size: 's',
         status: 'old',
         location: '',
-        image: '',
+        image: image1,
     },
     {
         id: '23',
@@ -108,7 +112,7 @@ export default [
         size: 'L',
         status: 'new',
         location: '',
-        image: '',
+        image: image2,
     },
     {
         id: '24',
@@ -118,6 +122,6 @@ export default [
         size: 'XL',
         status: 'very old',
         location: '',
-        image: '',
+        image: image3,
     },
 ]

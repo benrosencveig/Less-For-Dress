@@ -18,6 +18,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomeComponent from '../Home/components/HomeComponent';
 import ProfileComponent from '../Profile/components/ProfileComponent';
 import WithTemplate from '../../components/WithTemplate';
+import './globalStyles.css';
 
 export default function App() {
   return (

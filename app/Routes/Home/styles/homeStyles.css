@@ -6,5 +6,6 @@
 
 .HomeComponent-sliderContainer {
     margin: 10px;
-    height: 35%;
+    height: 55%;
+    flex: 0 0 auto;
 }

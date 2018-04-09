@@ -1,0 +1,21 @@
+
+.dummyLine {
+    background-color: lightgray;
+    width: 90%;
+    height: 1px;
+}
+
+.smallText {
+    font-size: 14px;
+    color: gray;
+}
+
+.mediumText {
+    font-size: 18px;
+    color: gray;    
+}
+
+.largeText {
+    font-size: 22px;
+    color: gray;    
+}
