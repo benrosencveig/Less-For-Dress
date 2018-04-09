@@ -85,10 +85,10 @@
     "parser": "babel-eslint",
     "extends": "airbnb",
     "env": {
-      "browser": true,
-      "node": true,
-      "jest": true,
-      "es6": true
+      "browser": false,
+      "node": false,
+      "jest": false,
+      "es6": false
     },
     "plugins": [
       "redux-saga",

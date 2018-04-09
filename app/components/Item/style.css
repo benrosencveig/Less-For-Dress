@@ -1,0 +1,23 @@
+
+.Item-mainContainer {
+    height: 90%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.Item-imageContainer {
+    background-color: blue;
+    flex: 8;
+}
+
+.Item-categoryAndLikeContainer {
+    background-color: yellow;
+    flex: 1;
+}
+
+.Item-priceContainer {
+    background-color: green;
+    flex: 1;
+}
