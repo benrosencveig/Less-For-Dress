@@ -5,6 +5,7 @@ import '../styles/homeStyles.css';
 import Footer from '../../../components/Footer';
 import Group from "./Group";
 
+
 class HomeComponent extends React.Component {
 
     // constructor() {
@@ -29,10 +30,12 @@ class HomeComponent extends React.Component {
                 <div className="HomeComponent-headerContainer">
                     <Header history={this.props.history} /> 
                 </div>
-
-                <div className="Group-mainContiner">
+                <div className="groupcomponent">
                     <Group/>
+                    <Group />
+                    <Group />
                 </div>
+            
 
                <div className="ItemComponent">
                       <a href="" alt="item" />               
