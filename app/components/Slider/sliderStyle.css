@@ -1,0 +1,26 @@
+
+.Slider-mainContiner {
+    background-color: #333;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* -ms-overflow-style: -ms-autohiding-scrollbar; */
+}
+
+.Slider-mainContiner:hover{
+    background-color: #777; 
+}
+
+.square {
+    height: 80%;
+    width: 150px;
+    margin-left: 40px;
+    background-color: white;
+    margin: 10px;
+    flex: 0 0 auto;
+}

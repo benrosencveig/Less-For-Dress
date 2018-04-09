@@ -1,54 +1,31 @@
 
 import React from 'react';
 import Header from '../../../components/Header';
-import '../styles/homeStyles.css';
 import Footer from '../../../components/Footer';
-import Group from "./Group";
-
+import Slider from '../../../components/Slider';
+import '../styles/homeStyles.css';
 
 class HomeComponent extends React.Component {
 
-    // constructor() {
-    //     super();
+    constructor(props) {
+        super(props);
 
-    //     this.state = { counter: 0 }
-    // }
-
-    // onBenClick = () => {
-    //     this.setState({ counter: this.state.counter + 1})
-    // }
-
-    // onTalClicked = () => {
-    //     alert('tal clicked');
-    // }
+        this.state = {
+            homeSalesItems: [],
+            recommendedItems: [],
+            recentlyViewedItems: [],
+        }
+    }
 
     render() {
-        console.log('home props: ', this.props);
         return (
             <div className="HomeComponent-mainContainer">
-
-                <div className="HomeComponent-headerContainer">
-                    <Header history={this.props.history} /> 
-                </div>
-                <div className="groupcomponent">
-                    <Group/>
-                    <Group />
-                    <Group />
-                </div>
-            
-
-               <div className="ItemComponent">
-                      <a href="" alt="item" />               
-                </div>
-            
-                <div className="HomeComponent-footerContainer">
-                     <Footer />
+                <div className="HomeComponent-sliderContainer"> 
+                    <Slider title="Recommended for you ..." items={this.state.homeSalesItems} />
                 </div>
             </div>
-                
-           
         );
+        }
     }
-}
 
 export default HomeComponent;

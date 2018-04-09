@@ -17,12 +17,13 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomeComponent from '../Home/components/HomeComponent';
 import ProfileComponent from '../Profile/components/ProfileComponent';
+import WithTemplate from '../../components/WithTemplate';
 
 export default function App() {
   return (
     <div style={{height: '100%'}}>
       <Switch>
-        <Route exact path="/" component={HomeComponent} />
+        <Route exact path="/" component={WithTemplate(HomeComponent)} />
         <Route path="/profile" component={ProfileComponent} />
       </Switch>
     </div>

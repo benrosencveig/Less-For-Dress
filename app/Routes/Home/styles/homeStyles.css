@@ -1,46 +1,10 @@
 
 .HomeComponent-mainContainer {
     height: 100%;
-}
-
-.HomeComponent-headerContainer {
-    height: 10%;
-}
-
-.HomeComponent-footerContainer{
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
-    height:10%;
-}
-
-.ItemComponent{
-    height:70%;
-}
-.group.component {
-    height:100%;
-    width: 100%;
-    background-color:red;
-    margin: 0;
-}
-.Group-mainContiner{
-    background-color: #333;
     overflow: auto;
-    white-space: nowrap;
-    height:100%;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-.Group-mainContiner:hover{
-    background-color: #777; 
-}
-.Square{
- padding:60px 0 0 0;
- background-color:palevioletred ;
- display: inline-block;
- text-align: center;
- text-decoration: none;
- width:10%;
- height:15%;
- margin:10px;
+
+.HomeComponent-sliderContainer {
+    margin: 10px;
+    height: 35%;
 }
